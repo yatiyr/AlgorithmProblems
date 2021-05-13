@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Hard/MinimumWindowSubstring.h>
+#include <Simple/ChangeLetters.h>
 
 #include <string>
 
@@ -10,7 +10,7 @@ int main()
 {
     string arr[2] = {"aaabaaddae", "aed"};
 
-    cout << MinimumWindowSubstring(arr, 2) << endl;
+    cout << ChangeLetters("hello world") << endl;
 
 
     return 0;

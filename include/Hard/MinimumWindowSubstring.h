@@ -3,7 +3,7 @@
 
 #include <string>
 
-std::string MinimumWindowSubstring(std::string strArr[], int arrLength)
+inline std::string MinimumWindowSubstring(std::string strArr[], int arrLength)
 {
     std::string N = strArr[0];
     std::string K = strArr[1];
