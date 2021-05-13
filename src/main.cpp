@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Simple/FindIntersection.h>
+#include <Simple/QuestionMarksBetweenDigits.h>
 
 #include <string>
 
@@ -10,7 +10,7 @@ int main()
 {
     string arr[2] = {"1, 2, 3,4, 5", "3, 4, 1, 1, 1"};
 
-    cout << FindIntersection(arr) << endl;
+    cout << QuestionMarksBetweenDigits("asdas8????1???9") << endl;
 
 
     return 0;
