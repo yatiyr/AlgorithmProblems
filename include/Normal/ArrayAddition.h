@@ -4,6 +4,15 @@
 #include <string>
 #include <algorithm>
 
+
+/**
+ *  We have an array and search for summations of
+ *  element combinations (excluding max value)
+ *  which are equal to max value. If there is
+ *  such combination, we return true.
+ * 
+ */
+
 inline bool combinationSearch(int arr[],
                        int startIndex,
                        int stopIndex,
