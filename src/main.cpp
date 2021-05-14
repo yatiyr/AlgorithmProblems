@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Simple/SimpleSymbols.h>
+#include <Simple/SortString.h>
 
 #include <string>
 
@@ -10,7 +10,7 @@ int main()
 {
     string arr[2] = {"aaabaaddae", "aed"};
 
-    cout << SimpleSymbols("hello world") << endl;
+    cout << SortString("helloworld") << endl;
 
 
     return 0;
