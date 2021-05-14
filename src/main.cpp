@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Normal/StringScramble.h>
+#include <Normal/ArithmeticGeometricSequence.h>
 
 #include <string>
 
@@ -10,7 +10,9 @@ int main()
 {
     string arr[9] = {"(1,2,3,4,5,6,7,8,1)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(1,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)"};
 
-    cout << StringScramble("asdasdnereasdasdered", "erendere") << endl;
+    int arr2[4] = {1, 2, 3, 4};
+
+    cout << ArithmeticGeometricSequence(arr2, 4) << endl;
 
 
     return 0;
