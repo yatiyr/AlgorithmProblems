@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Simple/CheckBetweenAB.h>
+#include <Simple/CalculateVowelCount.h>
 
 #include <string>
 
@@ -10,7 +10,7 @@ int main()
 {
     string arr[2] = {"aaabaaddae", "aed"};
 
-    cout << CheckBetweenAB("aelblowaorld") << endl;
+    cout << CalculateVowelCount("coderbyte") << endl;
 
 
     return 0;
