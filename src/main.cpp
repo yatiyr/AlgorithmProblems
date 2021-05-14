@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Normal/RunLength.h>
+#include <Normal/NthPrime.h>
 
 #include <string>
 
@@ -10,7 +10,7 @@ int main()
 {
     string arr[2] = {"aaabaaddae", "aed"};
 
-    cout << RunLength("aabbcc") << endl;
+    cout << NthPrime(9) << endl;
 
 
     return 0;
