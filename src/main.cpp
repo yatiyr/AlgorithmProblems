@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Simple/CapitilizeWordBeginnings.h>
+#include <Simple/SimpleSymbols.h>
 
 #include <string>
 
@@ -10,7 +10,7 @@ int main()
 {
     string arr[2] = {"aaabaaddae", "aed"};
 
-    cout << CapitilizeWordBeginnings("hello world") << endl;
+    cout << SimpleSymbols("hello world") << endl;
 
 
     return 0;
