@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Normal/CheckPrime.h>
+#include <Normal/RunLength.h>
 
 #include <string>
 
@@ -10,7 +10,7 @@ int main()
 {
     string arr[2] = {"aaabaaddae", "aed"};
 
-    cout << CheckPrime(17) << endl;
+    cout << RunLength("aabbcc") << endl;
 
 
     return 0;
