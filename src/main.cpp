@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Hard/CheckSudokuTable.h>
+#include <Normal/CheckPalindrome.h>
 
 #include <string>
 
@@ -10,7 +10,7 @@ int main()
 {
     string arr[9] = {"(1,2,3,4,5,6,7,8,1)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(1,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)"};
 
-    cout << CheckSudokuTable(arr, 9) << endl;
+    cout << CheckPalindrome("rac000212-ec-ar") << endl;
 
 
     return 0;
