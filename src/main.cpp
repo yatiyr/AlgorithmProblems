@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Simple/CalculateVowelCount.h>
+#include <Normal/CheckPrime.h>
 
 #include <string>
 
@@ -10,7 +10,7 @@ int main()
 {
     string arr[2] = {"aaabaaddae", "aed"};
 
-    cout << CalculateVowelCount("coderbyte") << endl;
+    cout << CheckPrime(17) << endl;
 
 
     return 0;
