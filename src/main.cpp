@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Normal/NthPrime.h>
+#include <Hard/CheckSudokuTable.h>
 
 #include <string>
 
@@ -8,9 +8,9 @@ using namespace std;
 
 int main()
 {
-    string arr[2] = {"aaabaaddae", "aed"};
+    string arr[9] = {"(1,2,3,4,5,6,7,8,1)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(1,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)"};
 
-    cout << NthPrime(9) << endl;
+    cout << CheckSudokuTable(arr, 9) << endl;
 
 
     return 0;
