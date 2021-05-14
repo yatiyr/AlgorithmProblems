@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Simple/SortString.h>
+#include <Simple/CheckBetweenAB.h>
 
 #include <string>
 
@@ -10,7 +10,7 @@ int main()
 {
     string arr[2] = {"aaabaaddae", "aed"};
 
-    cout << SortString("helloworld") << endl;
+    cout << CheckBetweenAB("aelblowaorld") << endl;
 
 
     return 0;
