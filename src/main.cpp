@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Normal/RepeatedLetterCount.h>
+#include <Normal/CaesarCipher.h>
 
 #include <string>
 
@@ -12,7 +12,7 @@ int main()
 
     int arr2[4] = {1, 2, 3, 7};
 
-    cout << RepeatedLetterCount("hello applee pie") << endl;
+    cout << CaesarCipher("Hello", 4) << endl;
 
 
     return 0;
