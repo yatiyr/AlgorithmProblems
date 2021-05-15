@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Hard/OptimalAssignments.h>
+#include <Hard/TransitivityRelations.h>
 
 #include <string>
 
@@ -10,9 +10,9 @@ int main()
 {
     string arr[9] = {"(1,2,3,4,5,6,7,8,1)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(1,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)","(x,x,x,x,x,x,x,x,x)"};
 
-    string arr2[3] = {"(5,4,2)","(12,4,3)","(3,4,13)"};
+    string arr2[3] = {"(1,1,1)","(1,0,0)","(0,1,0)"};
 
-    cout << OptimalAssignments(arr2, 3) << endl;
+    cout << TransitivityRelations(arr2, 3) << endl;
 
 
     return 0;
