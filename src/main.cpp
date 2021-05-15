@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Normal/BinaryConverter.h>
+#include <Normal/RepeatedLetterCount.h>
 
 #include <string>
 
@@ -12,7 +12,7 @@ int main()
 
     int arr2[4] = {1, 2, 3, 7};
 
-    cout << BinaryConverter("011111111111111") << endl;
+    cout << RepeatedLetterCount("hello applee pie") << endl;
 
 
     return 0;
