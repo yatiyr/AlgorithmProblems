@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Normal/ArrayAddition.h>
+#include <Normal/BinaryConverter.h>
 
 #include <string>
 
@@ -12,7 +12,7 @@ int main()
 
     int arr2[4] = {1, 2, 3, 7};
 
-    cout << ArrayAddition(arr2, 4) << endl;
+    cout << BinaryConverter("011111111111111") << endl;
 
 
     return 0;
