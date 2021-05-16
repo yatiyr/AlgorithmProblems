@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Hard/TransitivityRelations.h>
+#include <Simple/SecondGreatLow.h>
 
 #include <string>
 
@@ -12,7 +12,9 @@ int main()
 
     string arr2[3] = {"(1,1,1)","(1,0,0)","(0,1,0)"};
 
-    cout << TransitivityRelations(arr2, 3) << endl;
+    int arr3[4] = {1, 2, 2, 3};
+
+    cout << SecondGreatLow(arr3, 4) << endl;
 
 
     return 0;
