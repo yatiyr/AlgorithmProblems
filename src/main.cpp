@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Simple/SecondGreatLow.h>
+#include <Simple/DivisionStringified.h>
 
 #include <string>
 
@@ -14,7 +14,7 @@ int main()
 
     int arr3[4] = {1, 2, 2, 3};
 
-    cout << SecondGreatLow(arr3, 4) << endl;
+    cout << DivisionStringified(123456789, 10000) << endl;
 
 
     return 0;
