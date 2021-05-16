@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Normal/SimpleMode.h>
+#include <Normal/Consecutive.h>
 
 #include <string>
 
@@ -14,7 +14,9 @@ int main()
 
     int arr3[13] = {1, 2, 2, 3 ,3 ,3 ,3, 1, 1, 1, 1, 1, 1};
 
-    cout << SimpleMode(arr3, 13) << endl;
+    int arr4[3] = {1,2,4};
+
+    cout << Consecutive(arr4, 3) << endl;
 
 
     return 0;
