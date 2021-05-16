@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Normal/Consecutive.h>
+#include <Normal/FormattedDivision.h>
 
 #include <string>
 
@@ -16,7 +16,7 @@ int main()
 
     int arr4[3] = {1,2,4};
 
-    cout << Consecutive(arr4, 3) << endl;
+    cout << FormattedDivision(123456789, 10000) << endl;
 
 
     return 0;
