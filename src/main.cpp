@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Simple/CountingMinutesI.h>
+#include <Normal/SimpleMode.h>
 
 #include <string>
 
@@ -12,9 +12,9 @@ int main()
 
     string arr2[3] = {"(1,1,1)","(1,0,0)","(0,1,0)"};
 
-    int arr3[4] = {1, 2, 2, 3};
+    int arr3[13] = {1, 2, 2, 3 ,3 ,3 ,3, 1, 1, 1, 1, 1, 1};
 
-    cout << CountingMinutesI("12:30pm-12:00am") << endl;
+    cout << SimpleMode(arr3, 13) << endl;
 
 
     return 0;
