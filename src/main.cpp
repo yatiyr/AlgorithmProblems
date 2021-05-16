@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Simple/DivisionStringified.h>
+#include <Simple/CountingMinutesI.h>
 
 #include <string>
 
@@ -14,7 +14,7 @@ int main()
 
     int arr3[4] = {1, 2, 2, 3};
 
-    cout << DivisionStringified(123456789, 10000) << endl;
+    cout << CountingMinutesI("12:30pm-12:00am") << endl;
 
 
     return 0;
